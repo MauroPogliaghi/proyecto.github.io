@@ -1,0 +1,42 @@
+body{
+    background-color: chocolate;
+     font-family:"Tagesschrift", system-ui;
+     
+}
+.formulario{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    background-color: brown;
+    
+}
+div{
+    
+    margin-bottom: 10px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+   
+}
+h1{
+    display: flex;
+    justify-content: center;
+}
+.watsapp{
+    position: relative;
+    left: 35%;
+}
+
+.wlogo{
+    width: 50px;
+    
+}
+.watsapp :hover{
+    transform: scale(1.2);
+}
+
+.enviar{
+    background-color: chocolate;
+    border-radius: 10px;
+    border: solid;
+}
